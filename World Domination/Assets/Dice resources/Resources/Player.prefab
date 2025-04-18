@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2901971414217706526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9063192347789689483}
+  - component: {fileID: 910619427531840199}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9063192347789689483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901971414217706526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &910619427531840199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2901971414217706526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 628987369579fbf44936c40a6892121a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turn: 0
+  endTurn: 0
+  Deploy: 0
+  Attack: 0
+  Fortify: 0
+  diceScore: 0
+  currentStage: 
+  cards: []
+  territories: []
+  DicePrefab: {fileID: 3368704356225266411, guid: cbb8573183e10354db3a74eaacf94a2e, type: 3}
+  PiecePrefab: {fileID: 0}
+  Dice: {fileID: 0}
+  TroopPrefab: {fileID: 7839610810384767343, guid: e93932596f0d91d40b7c69dff053aa45, type: 3}
+  Roll1: 0
+  Army: []
+  Colour: {fileID: 0}
+  box: {fileID: 0}
